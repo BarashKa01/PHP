@@ -1,0 +1,59 @@
+/* CSS du Blog */
+
+#billet_post
+{
+	display : flex;
+	text-align : center;
+	margin : 1%;
+	flex-direction : column;
+}
+
+#billet
+{
+	display : flex;
+	text-align : center;
+	margin-left : 1%;
+	margin-right : 1%;
+	flex-direction : column;
+	width : 50%;
+	flex-wrap : wrap;
+}
+#billet p
+{
+	background-color : purple;
+}
+
+ 
+#intro
+{
+	display : flex;
+	flex-direction : column;
+	align-items : center;
+	margin : 5%;
+	/* border : 4px solid blue; */
+}
+
+body
+{
+	display : flex;
+	justify-content : center;
+	flex-direction : column;
+}
+
+section
+{
+	display : flex;
+	justify-content : center;
+}
+
+aside
+{
+	display : flex;
+	flex-direction : column;
+	align-items : center;
+}
+h2
+{
+	border : 2px solid black;
+	background-color : grey;
+}
